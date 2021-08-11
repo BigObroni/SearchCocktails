@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Drink View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="DrinkViewController" customModule="SeachCocktails" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="Dpn-Yp-jqz">
+                                <rect key="frame" x="0.0" y="44" width="414" height="51"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qhh-Ft-BBN">
+                                <rect key="frame" x="5" y="100" width="404" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="Toi-yb-smC"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="26" translatesAutoresizingMaskIntoConstraints="NO" id="hYM-H6-gcd">
+                                <rect key="frame" x="15" y="420" width="384" height="74"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(Drink name)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KlK-0l-j5I">
+                                        <rect key="frame" x="0.0" y="0.0" width="384" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(Category)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0W8-OY-XfW">
+                                        <rect key="frame" x="0.0" y="50" width="384" height="24"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qhh-Ft-BBN" secondAttribute="trailing" constant="5" id="7Xm-DH-5gD"/>
+                            <constraint firstItem="Dpn-Yp-jqz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="8At-72-ITC"/>
+                            <constraint firstItem="Dpn-Yp-jqz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="9oz-Pr-TVG"/>
+                            <constraint firstItem="qhh-Ft-BBN" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Diy-kN-BXq"/>
+                            <constraint firstItem="qhh-Ft-BBN" firstAttribute="top" secondItem="Dpn-Yp-jqz" secondAttribute="bottom" constant="5" id="L3b-IW-CkI"/>
+                            <constraint firstItem="Dpn-Yp-jqz" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="cxi-w2-7hb"/>
+                            <constraint firstItem="qhh-Ft-BBN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="n6z-Rb-6uJ"/>
+                            <constraint firstItem="hYM-H6-gcd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="tEV-HY-oTT"/>
+                            <constraint firstItem="hYM-H6-gcd" firstAttribute="top" secondItem="qhh-Ft-BBN" secondAttribute="bottom" constant="20" id="tO9-et-BRx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hYM-H6-gcd" secondAttribute="trailing" constant="15" id="tXh-rj-4sy"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="categoryNameLabel" destination="0W8-OY-XfW" id="q78-Ap-ocL"/>
+                        <outlet property="drinkImageView" destination="qhh-Ft-BBN" id="WLa-lA-tL8"/>
+                        <outlet property="drinkNameLabel" destination="KlK-0l-j5I" id="8BJ-ux-ZRG"/>
+                        <outlet property="drinkSearchBar" destination="Dpn-Yp-jqz" id="oKe-aC-ybs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="126" y="70"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

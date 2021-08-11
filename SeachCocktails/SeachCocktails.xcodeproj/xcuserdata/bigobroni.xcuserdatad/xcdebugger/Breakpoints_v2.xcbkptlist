@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "04E55948-5195-4B67-BBDB-DA4E863156DF"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FF5BC54B-0ECE-4592-9091-906AFECC607D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeachCocktails/Controllers/ModelControllers/DrinkController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "fetchDrink(searchTerm:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6236083B-D54D-49A7-BE5A-05099417E3D9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeachCocktails/Controllers/ModelControllers/DrinkController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "fetchDrink(searchTerm:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "427E5FB7-C2C4-437F-B4C5-6C68BEC19B67"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeachCocktails/Controllers/ModelControllers/DrinkController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "fetchDrink(searchTerm:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "427E5FB7-C2C4-437F-B4C5-6C68BEC19B67 - ed52378afa1368b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static SeachCocktails.DrinkController.fetchDrink(searchTerm: Swift.String, completion: (Swift.Result&lt;SeachCocktails.Drink, SeachCocktails.DrinkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SeachCocktails"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bigobroni/Documents/DevMount/week%204/SeachCocktails/SeachCocktails/Controllers/ModelControllers/DrinkController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "2096">
+               </Location>
+               <Location
+                  uuid = "427E5FB7-C2C4-437F-B4C5-6C68BEC19B67 - ed52378afa1368b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static SeachCocktails.DrinkController.fetchDrink(searchTerm: Swift.String, completion: (Swift.Result&lt;SeachCocktails.Drink, SeachCocktails.DrinkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SeachCocktails"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bigobroni/Documents/DevMount/week%204/SeachCocktails/SeachCocktails/Controllers/ModelControllers/DrinkController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "2280">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B2C5C2E1-D930-401E-BF04-E75A4FAD25CC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeachCocktails/Controllers/ModelControllers/DrinkController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "fetchDrink(searchTerm:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B2C5C2E1-D930-401E-BF04-E75A4FAD25CC - cd11e90bf19b327f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static SeachCocktails.DrinkController.fetchDrink(searchTerm: Swift.String, completion: (Swift.Result&lt;SeachCocktails.Drink, SeachCocktails.DrinkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SeachCocktails"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bigobroni/Documents/DevMount/week%204/SeachCocktails/SeachCocktails/Controllers/ModelControllers/DrinkController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "1184">
+               </Location>
+               <Location
+                  uuid = "B2C5C2E1-D930-401E-BF04-E75A4FAD25CC - ed52378afa136935"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static SeachCocktails.DrinkController.fetchDrink(searchTerm: Swift.String, completion: (Swift.Result&lt;SeachCocktails.Drink, SeachCocktails.DrinkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SeachCocktails"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bigobroni/Documents/DevMount/week%204/SeachCocktails/SeachCocktails/Controllers/ModelControllers/DrinkController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "2240">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "50D0C770-91A2-4095-8206-D323EAD9B081"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeachCocktails/Controllers/ModelControllers/DrinkController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "fetchDrink(searchTerm:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "50D0C770-91A2-4095-8206-D323EAD9B081 - cd11e90bf19b35eb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static SeachCocktails.DrinkController.fetchDrink(searchTerm: Swift.String, completion: (Swift.Result&lt;SeachCocktails.Drink, SeachCocktails.DrinkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SeachCocktails"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bigobroni/Documents/DevMount/week%204/SeachCocktails/SeachCocktails/Controllers/ModelControllers/DrinkController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "828">
+               </Location>
+               <Location
+                  uuid = "50D0C770-91A2-4095-8206-D323EAD9B081 - ed52378afa136f67"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static SeachCocktails.DrinkController.fetchDrink(searchTerm: Swift.String, completion: (Swift.Result&lt;SeachCocktails.Drink, SeachCocktails.DrinkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SeachCocktails"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bigobroni/Documents/DevMount/week%204/SeachCocktails/SeachCocktails/Controllers/ModelControllers/DrinkController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "360">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6C348005-4F0D-4631-B660-6487517452FD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeachCocktails/Controllers/ModelControllers/DrinkController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "fetchDrinkThumb(for:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D1A7D122-96C1-4C86-927D-6E1DB19314B9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeachCocktails/Controllers/ModelControllers/DrinkController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "fetchDrinkThumb(for:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D1A7D122-96C1-4C86-927D-6E1DB19314B9 - 9a176975f73ba95e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static SeachCocktails.DrinkController.fetchDrinkThumb(for: SeachCocktails.Drink, completion: (Swift.Result&lt;__C.UIImage, SeachCocktails.DrinkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SeachCocktails"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bigobroni/Documents/DevMount/week%204/SeachCocktails/SeachCocktails/Controllers/ModelControllers/DrinkController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "344">
+               </Location>
+               <Location
+                  uuid = "D1A7D122-96C1-4C86-927D-6E1DB19314B9 - 6da5842493b0d91e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static SeachCocktails.DrinkController.fetchDrinkThumb(for: SeachCocktails.Drink, completion: (Swift.Result&lt;__C.UIImage, SeachCocktails.DrinkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SeachCocktails"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bigobroni/Documents/DevMount/week%204/SeachCocktails/SeachCocktails/Controllers/ModelControllers/DrinkController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9233329F-D3A8-4F60-B645-4C3E3A035FED"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeachCocktails/Controllers/ModelControllers/DrinkController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "fetchDrinkThumb(for:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A067969A-F0E7-4F88-AFC8-216B09D8CEFF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeachCocktails/Controllers/ModelControllers/DrinkController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "fetchDrinkThumb(for:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4A559341-CB30-4FF7-99AD-BEE854B5F4FC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeachCocktails/Controllers/ModelControllers/DrinkController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "fetchDrinkThumb(for:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4A559341-CB30-4FF7-99AD-BEE854B5F4FC - 9a176975f73b972f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static SeachCocktails.DrinkController.fetchDrinkThumb(for: SeachCocktails.Drink, completion: (Swift.Result&lt;__C.UIImage, SeachCocktails.DrinkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SeachCocktails"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bigobroni/Documents/DevMount/week%204/SeachCocktails/SeachCocktails/Controllers/ModelControllers/DrinkController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "660">
+               </Location>
+               <Location
+                  uuid = "4A559341-CB30-4FF7-99AD-BEE854B5F4FC - 6da5842493b0e7ad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static SeachCocktails.DrinkController.fetchDrinkThumb(for: SeachCocktails.Drink, completion: (Swift.Result&lt;__C.UIImage, SeachCocktails.DrinkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SeachCocktails"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bigobroni/Documents/DevMount/week%204/SeachCocktails/SeachCocktails/Controllers/ModelControllers/DrinkController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "2812">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "669A4D1B-EC14-420E-A9FC-401D5AD3CA74"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeachCocktails/Controllers/ModelControllers/DrinkController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "fetchDrinkThumb(for:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CE87C193-3641-4657-B20B-6D1F5688E72E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeachCocktails/Controllers/ViewControllers/DrinkViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "DrinkViewController"
+            landmarkType = "21">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "370CB9CD-EE7E-48CF-881D-A44F458AD1F9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeachCocktails/Controllers/ViewControllers/DrinkViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "searchBarSearchButtonClicked(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
